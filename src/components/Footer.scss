@@ -1,0 +1,60 @@
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgba(87, 87, 87, 0.571);
+    height: 6rem;
+}
+
+.icons{
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+}
+.icons li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.icons li{
+    height: 40px;
+    width: 50px;
+}
+
+.links{
+    display: flex;
+    flex: 50%;
+    margin: auto;
+    justify-content: left;
+    letter-spacing: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+
+@media screen and (max-width: 855px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5.5rem;
+        bottom: 0;
+    }
+
+    .icons{
+        padding: 12px;
+        flex: 50%;
+    }
+
+
+    .links{
+        display: flex;
+        flex: 50%;
+        margin: auto;
+        justify-content: left;
+        letter-spacing: 2px;
+    }
+}

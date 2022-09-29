@@ -1,0 +1,110 @@
+@import '../colors/colors.scss';
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: $projtitle;
+    margin-bottom: 3px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 18rem;
+    background-color: $secbg;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.projimage{
+    display: flex;
+    height: 15rem;
+    width: 380px;
+    background-color: rgba(245, 245, 245, 0.422);
+    border-radius: 20px;
+}
+.projimage img{
+    height: 14rem;
+    width: 380px;
+    margin: auto;
+    border-radius: 20px;
+}
+.projp{
+    justify-content: center;
+    margin-left: 22px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.abtproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.abtproject h1{
+    font-size: 40px;
+}
+
+.abtproject p{
+    font-size: 18px;
+}
+
+.btna{
+    width: 30%;
+    height: 13%;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: $buttons;
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 855px) {
+
+    .projimage{
+        height: 10rem;
+        width: 40rem;   
+    }
+    .projimage img{
+        height: 9.3rem;
+        width: 200px;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+    .abtproject h1{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .abtproject p{
+        font-size: 14px;
+    }
+
+    .abtproject{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .btna{
+        width: 60%;
+        height: 13%;
+        color: white;
+        background-color: $secondary;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+}

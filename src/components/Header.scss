@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    background-color: rgba(87, 87, 87, 0.571);
+    height: 40px;
+    justify-content: center;
+    width: 100%;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+.navlinks li a{
+    color: white;
+}
+
+.navlinks li{
+    display: grid;
+    display: inline-block;
+    margin: 5px 40px 5px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navlinks li a:hover{
+    color: rgb(239, 62, 62);
+}
+
+@media screen and (max-width: 855px) {
+
+    .header{
+        background-color: rgba(68, 68, 68, 0.553);
+    }
+    .navlinks li{
+        display: grid;
+        display: inline-block;
+        margin: 8px 15px 8px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .navlinks li a{
+        color: rgb(7, 248, 248);
+    }
+
+}

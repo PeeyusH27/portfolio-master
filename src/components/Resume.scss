@@ -1,0 +1,34 @@
+@import '../colors/colors.scss';
+
+.resumeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeimg img{
+    display: flex ;
+    height: 43rem;
+    width: 35rem;
+    border-radius: 10px;
+}
+
+.resumeimg img:hover{
+    height: 53rem;
+    width: 50rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 855px){
+    .resumeimg img{
+        width: 96%;
+        height: 42rem;
+    }
+
+    .resumeimg img:hover{
+        height: auto;
+        width: 96%;
+        height: 42rem;
+        border: none;
+    }
+}
