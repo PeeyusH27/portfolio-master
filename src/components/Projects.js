@@ -16,8 +16,8 @@ const Projects = () => {
             <h1>Movies App</h1>
             <p className='projp'>In this project I have developed a web application using React, Redux, SCSS and Omdb API.
             Here you can get information about shows and movies which are being fetched through api calls.</p>
-            <button className='btna'><a href='https://github.com/PeeyusH27/React_Redux_ToolKit_Movie_App-master' target='_blank'>Github Link</a></button>
-            <button className='btna'><a href='movies-app-peeyush.netlify.app' target='_blank'>Demo</a></button>
+            <button className='btna'><a href='https://github.com/PeeyusH27/movies' target='_blank'>Github Link</a></button>
+            <button className='btna'><a href='https://movies-app-peeyush.netlify.app' target='_blank'>Demo</a></button>
           </div>
       </div>
       
@@ -36,7 +36,7 @@ const Projects = () => {
       </div>
 
 
-      <div className='card'>
+      {/* <div className='card'>
         <div className='projimage'>
         <img src={download} />
           </div>
@@ -46,7 +46,7 @@ const Projects = () => {
             <button className='btna'><a href='' target='_blank'>Github Link</a></button>
             <button className='btna'><a>Demo</a></button>
           </div>
-      </div>
+      </div> */}
 
       <div className='card'>
         <div className='projimage'>
@@ -55,8 +55,8 @@ const Projects = () => {
           <div className='abtproject'>
             <h1>Desktop Assistant</h1>
             <p className='projp'>This is some random text about the shit that I've created, this is project description which my lazy ass is not able to update yet</p>
-            <button className='btna'><a href='' target='_blank'>Github Link</a></button>
-            <button className='btna'><a>Demo</a></button>
+            <button className='btna'><a href='https://github.com/PeeyusH27/Desktop-assistant' target='_blank'>Github Link</a></button>
+            {/* <button className='btna'><a>Demo</a></button> */}
           </div>
       </div>
 
